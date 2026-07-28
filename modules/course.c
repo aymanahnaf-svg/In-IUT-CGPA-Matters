@@ -4,17 +4,17 @@
 
 Course createCourse(char code[], char name[], double credit)
 {
-Course course;
+    Course course;
 
-strcpy(course.code, code);
-strcpy(course.name, name);
-course.credit = credit;
+    strcpy(course.code, code);
+    strcpy(course.name, name);
+    course.credit = credit;
 
-return course;
+    return course;
 }
 void viewCourse(Course course)
 {
-printf("Code: %s\n", course.code);
-printf("Name: %s\n", course.name);
-printf("Credit: %.1f\n", course.credit);
+    printf("Code: %s\n", course.code);
+    printf("Name: %s\n", course.name);
+    printf("Credit: %.1f\n", course.credit);
 }

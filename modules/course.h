@@ -3,9 +3,9 @@
 
 typedef struct Course
 {
-char code[16];
-char name[100];
-double credit;
+    char code[16];
+    char name[100];
+    double credit;
 } Course;
 
 Course createCourse(char code[], char name[], double credit);
